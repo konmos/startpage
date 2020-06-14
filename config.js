@@ -40,6 +40,19 @@ const config = {
       }
     },
 
+    "y": {
+      "url": "https://youtube.com/",
+      "default_url": "https://youtube.com/results?search_query=${query}",
+      "shortcuts": {
+        "s": {
+          "url": "https://youtube.com/feed/subscriptions"
+        },
+        "t": {
+          "url": "https://youtube.com/feed/trending"
+        }
+      }
+    },
+
     "n": {
       "url": "https://nyaa.si/",
       "default_url": "https://nyaa.si/?f=0&c=1_2&s=seeders&o=desc&q=${query}"
