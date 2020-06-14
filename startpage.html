@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="startpage.css">
+
+  <title>/startpage</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <h3>specials</h3>
+          <ul id="specials">
+            <li><span class="key">!0</span>open in new tab (prefix)</li>
+            <li><span class="key">!1</span>re-open last opened url</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-bottom">
+          <h3>shortcuts</h3>
+          <ul id="shortcuts"></ul>
+        </div>
+      </div>
+
+      <div class="content">
+        <span id="input-prompt">[startpage@ ~]$</span><input type="text" id="input" autocomplete="off">
+        <ul id="input-helper"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="startpage.js"></script>
+</body>
+</html>
