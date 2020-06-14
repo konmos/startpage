@@ -30,7 +30,7 @@ body {
 .sidebar {
   display: grid;
   margin-right: 20px;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, min-content);
   row-gap: 15px;
 }
 
