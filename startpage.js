@@ -89,8 +89,10 @@ function get_hostname(url) {
 let shortcuts_ul = document.getElementById('shortcuts');
 
 for (shortcut in config['shortcuts']) {
+  let u = config['shortcuts'][shortcut]['url'];
+
   shortcuts_ul.appendChild(create_li(
-    shortcut, get_hostname(config['shortcuts'][shortcut]['url'])
+    shortcut, `<a class="shortcut" href=${u}>` + get_hostname(u) + '</a>'
   ));
 }
 

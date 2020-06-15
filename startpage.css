@@ -96,3 +96,12 @@ h3 {
 ::-moz-selection {
   background: #e17055; /* Gecko Browsers */
 }
+
+a.shortcut {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.shortcut:hover {
+  background: #e17055;
+}
