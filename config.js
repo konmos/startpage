@@ -17,7 +17,7 @@ const config = {
 
     "r": {
       "url": "https://reddit.com",
-      "default_url": "https://reddit.com/search?q=${query}",
+      "default_url": "https://reddit.com/r/${query}",
       "shortcuts": {
         "d": {
           "url": "https://reddit.com/r/druggardening"
